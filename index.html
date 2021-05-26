@@ -25,16 +25,62 @@
           </li>
         </ul>
       </div>
-      <div id="article">
-        <h1>Hello my name is Pedro Ramirez</h1>
+      <div id="main">
+        <h2 id="main-message"><span id="typed"></span></h2>
       </div>
-      <p>
-        <span class="element">hey</span>
-      </p>
-      <div id="aside"></div>
+      <div id="section-icons">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quidem
+        repudiandae ducimus excepturi similique dicta ipsa, dolorem maxime,
+        dolore molestias deleniti iste ad veniam odio accusantium. Sit alias
+        laudantium reprehenderit dolor magnam exercitationem, aliquid
+        necessitatibus at, voluptate sint neque a.
+      </div>
+      <div id="section-projects">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, debitis.
+        Aliquid molestias, et neque consequatur amet expedita tempora commodi
+        molestiae voluptas! Voluptatibus, fugit reprehenderit nobis voluptate
+        optio ut architecto nihil quod, qui temporibus, officia ipsa. Quasi
+        laborum expedita repellat, iste error magnam voluptates odio sit unde
+        eos voluptatibus, facilis accusantium.
+      </div>
+      <div id="aside">
+        <h2>Contact:</h2>
+        <p class="icons"><i class="fas fa-envelope"></i></p>
+        <p class="icons"><i class="fab fa-twitter"></i></p>
+        <p class="icons"><i class="fab fa-facebook"></i></p>
+        <p class="icons"><i class="fab fa-linkedin"></i></p>
+      </div>
       <div id="footer">&copy Proudly created by Pedro Ramirez</div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script
+      src="https://kit.fontawesome.com/7922aefa39.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+      integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      var welcome = new Typed("#typed", {
+        strings: [
+          "Hello..",
+          "My name is ...",
+          "Pedro Ramirez...",
+          "I am...",
+          "A Full Stack Developer!",
+          "Welcome to my page!",
+        ],
+        backSpeed: 50,
+        typeSpeed: 30,
+        loop: true,
+      });
+    </script>
+
     <script src="./script.js" async defer></script>
   </body>
 </html>
