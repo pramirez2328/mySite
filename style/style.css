@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import "./components/navbar.css";
+
+body {
+  background-image: url("./images/main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

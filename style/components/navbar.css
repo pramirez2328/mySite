@@ -1,0 +1,17 @@
+#nav > #ulnav {
+  display: flex;
+  flex: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.aLinks {
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.aLinks:hover {
+  color: yellow;
+}
