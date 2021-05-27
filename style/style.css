@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
 @import "./components/navbar.css";
 @import "./components/maincontent.css";
 @import "./components/contacts_icons.css";
@@ -5,6 +6,7 @@
 body {
   background-color: black;
   color: white;
+  font-family: "Mate SC", serif;
 }
 
 #nav {
@@ -40,8 +42,8 @@ body {
   grid-template-areas:
     "nav nav"
     "main aside"
-    "section-icons aside"
-    "section-projects aside"
+    "section-icons section-icons"
+    "section-projects section-projets"
     "footer footer";
   gap: 1rem;
 }
