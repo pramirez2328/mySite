@@ -1,0 +1,32 @@
+#section-languages {
+  text-align: center;
+}
+
+#typed2 {
+  font-size: 1.5rem;
+}
+
+.programming_icons > img {
+  width: 50px;
+  height: 50px;
+}
+.programming_icons {
+  background-color: white;
+  border-radius: 7px;
+  padding: 10px;
+  border: crimson 1.5px solid;
+}
+
+.programming_icons {
+  transition: all 0.2s ease-in-out;
+}
+.programming_icons:hover {
+  transform: scale(1.1);
+}
+
+.progra_icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}

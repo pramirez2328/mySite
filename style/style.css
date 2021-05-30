@@ -2,6 +2,8 @@
 @import "./components/navbar.css";
 @import "./components/maincontent.css";
 @import "./components/contacts_icons.css";
+@import "./components/section_languages.css";
+@import "./components/footer.css";
 
 body {
   background-color: black;
@@ -21,10 +23,6 @@ body {
   grid-area: section-icons;
 }
 
-#section-projects {
-  grid-area: section-projects;
-}
-
 #aside {
   grid-area: aside;
 }
@@ -38,12 +36,11 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 80% 20%;
-  grid-template-rows: auto 45rem 25rem auto 4rem;
+  grid-template-rows: auto 50rem auto 4rem;
   grid-template-areas:
     "nav nav"
     "main aside"
     "section-icons section-icons"
-    "section-projects section-projets"
     "footer footer";
   gap: 1rem;
 }
