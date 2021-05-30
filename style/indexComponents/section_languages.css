@@ -36,7 +36,7 @@
 
 @media only screen and (max-width: 600px) {
   #section-languages {
-    font-size: small;
+    font-size: x-small;
     text-align: center;
   }
 
@@ -45,5 +45,14 @@
     justify-content: space-evenly;
     margin-bottom: 2rem;
     margin-top: 2rem;
+  }
+
+  #typed2 {
+    font-size: small;
+  }
+
+  .programming_icons > img {
+    width: 30px;
+    height: 30px;
   }
 }
