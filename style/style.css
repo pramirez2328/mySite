@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
-@import "./components/navbar.css";
-@import "./components/maincontent.css";
-@import "./components/contacts_icons.css";
-@import "./components/section_languages.css";
-@import "./components/footer.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@import "./indexComponents/navbar.css";
+@import "./indexComponents/maincontent.css";
+@import "./indexComponents/contacts_icons.css";
+@import "./indexComponents/section_languages.css";
+@import "./indexComponents/footer.css";
+@import "./aboutComponents/main.css";
 
 body {
   background-color: black;
   color: white;
-  font-family: "Mate SC", serif;
+  font-family: "Roboto Slab", serif;
 }
 
 #nav {

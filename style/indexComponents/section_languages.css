@@ -4,6 +4,7 @@
 
 #typed2 {
   font-size: 1.5rem;
+  font-family: "Mate SC", serif;
 }
 
 .programming_icons > img {
@@ -21,7 +22,7 @@
   transition: all 0.2s ease-in-out;
 }
 .programming_icons:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 .progra_icons {
