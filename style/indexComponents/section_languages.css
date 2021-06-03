@@ -6,15 +6,14 @@
 .index-introduction {
   font-size: 3rem;
   font-weight: bold;
-  border-radius: 12px;
+  border-radius: 7px;
   color: white;
   width: 50%;
   padding: 1rem;
   margin: auto;
   text-shadow: 2px 2px 2px #ff0b0b;
-
-  -webkit-box-shadow: 0px 0px 15px -2px #fffffe;
-  box-shadow: 0px 0px 15px -2px #fffffe;
+  -webkit-box-shadow: 0px 0px 17px -2px rgba(254, 255, 254, 0.95);
+  box-shadow: 0px 0px 17px -2px rgba(254, 255, 254, 0.95);
 }
 
 .index-introduction2 {
@@ -65,13 +64,13 @@ img.icon {
   }
 
   .index-introduction {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
     width: 80%;
   }
 
   .index-introduction2 {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .progra_icons {
