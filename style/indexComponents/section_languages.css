@@ -73,19 +73,16 @@ img.icon {
     font-size: 1rem;
   }
 
-  .progra_icons {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
-
   #typed2 {
     font-size: small;
   }
 
   .programming_icons > img {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .language-name {
+    font-size: x-small;
   }
 }
