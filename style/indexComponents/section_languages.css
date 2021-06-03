@@ -6,7 +6,15 @@
 .index-introduction {
   font-size: 3rem;
   font-weight: bold;
-  color: red;
+  border-radius: 12px;
+  color: white;
+  width: 50%;
+  padding: 1rem;
+  margin: auto;
+  text-shadow: 2px 2px 2px #ff0b0b;
+
+  -webkit-box-shadow: 0px 0px 15px -2px #fffffe;
+  box-shadow: 0px 0px 15px -2px #fffffe;
 }
 
 .index-introduction2 {
@@ -24,13 +32,6 @@
 }
 
 .programming_icons {
-  background-color: white;
-  border-radius: 7px;
-  padding: 10px;
-  border: crimson 1.5px solid;
-}
-
-.programming_icons {
   transition: all 0.2s ease-in-out;
 }
 
@@ -45,6 +46,18 @@
   margin-top: 2rem;
 }
 
+img.icon {
+  background-color: aliceblue;
+  color: white;
+  border-radius: 7px;
+  padding: 10px;
+  border: crimson 1.5px solid;
+}
+
+.language-name {
+  font-size: medium;
+}
+
 @media only screen and (max-width: 600px) {
   #section-languages {
     font-size: small;
@@ -52,13 +65,13 @@
   }
 
   .index-introduction {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    color: red;
+    width: 80%;
   }
 
   .index-introduction2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .progra_icons {
