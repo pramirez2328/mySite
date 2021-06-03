@@ -13,11 +13,8 @@
   flex: row;
   justify-content: space-evenly;
   list-style: none;
-  margin: 2rem;
-}
-
-#ulnav {
   padding-left: 0;
+  margin: 2rem 0 2rem 0;
 }
 
 .aLinks {
