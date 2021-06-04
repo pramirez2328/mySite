@@ -8,11 +8,9 @@
 }
 
 #main-message {
-  text-align: right;
-  margin-right: 12rem;
   position: absolute;
   left: 24rem;
-  top: 6rem;
+  top: 16rem;
 }
 
 .typed-cursor {
@@ -60,8 +58,8 @@
   #main-message {
     font-size: small;
     position: absolute;
-    left: 3rem;
-    top: 1rem;
+    left: 5rem;
+    top: 9rem;
     margin: 0;
   }
 }
