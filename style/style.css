@@ -7,7 +7,6 @@
 @import "./indexComponents/footer.css";
 @import "./aboutComponents/main.css";
 @import "./aboutComponents/bio.css";
-@import "./aboutComponents/about-contacts-icons.css";
 
 body {
   background-color: black;

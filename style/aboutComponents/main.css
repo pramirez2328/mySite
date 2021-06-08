@@ -7,6 +7,14 @@
   width: 75%;
 }
 
+.bio > p {
+  text-indent: 2.5rem;
+  text-align: left;
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
 @media only screen and (max-width: 600px) {
   #personal-picture {
     display: flex;
@@ -15,5 +23,9 @@
 
   #personal-picture > img {
     width: 85%;
+  }
+
+  .bio > p {
+    width: 100%;
   }
 }
