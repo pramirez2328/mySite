@@ -1,9 +1,18 @@
-#personal-picture {
+.personal-picture {
   display: flex;
   justify-content: flex-end;
 }
 
-#personal-picture > img {
+.personal-picture2 {
+  display: flex;
+  justify-content: center;
+}
+
+.personal-picture > img {
+  width: 70%;
+}
+
+.personal-picture2 > img {
   width: 75%;
 }
 
@@ -16,14 +25,20 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #personal-picture {
+  .personal-picture {
     display: flex;
     justify-content: center;
   }
 
-  #personal-picture > img {
+  .personal-picture2 > img {
     width: 90%;
-    height: 11rem;
+  }
+  .personal-picture2 {
+    margin-top: 1rem;
+  }
+
+  .personal-picture > img {
+    width: 65%;
   }
 
   .bio > p {
