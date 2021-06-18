@@ -30,7 +30,6 @@
     display: flex;
     justify-content: center;
     height: 9rem;
-    margin-top: 1rem;
   }
 
   .personal-picture2 > img {
@@ -44,5 +43,6 @@
 
   .bio > p {
     width: 100%;
+    margin-top: 0;
   }
 }
