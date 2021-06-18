@@ -18,7 +18,6 @@
 }
 
 .bio > p {
-  text-indent: 2.5rem;
   text-align: left;
   width: 70%;
   margin: auto;
@@ -28,7 +27,7 @@
 
 @media only screen and (max-width: 600px) {
   #section-languages {
-    width: 85%;
+    width: 80%;
     margin-top: 1.5rem;
   }
   .personal-picture {
@@ -39,16 +38,15 @@
 
   .personal-picture2 > img {
     width: 90%;
-    height: 10rem;
+    height: 9rem;
   }
 
   .personal-picture > img {
-    width: 85%;
-    height: 11.5rem;
+    width: 80%;
+    height: 11rem;
   }
 
   .bio > p {
     width: 100%;
-    margin-top: 1rem;
   }
 }
