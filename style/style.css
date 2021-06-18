@@ -45,7 +45,6 @@ body {
     "main aside"
     "section-icons section-icons"
     "footer footer";
-  gap: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
