@@ -10,10 +10,12 @@
 
 .personal-picture > img {
   width: 70%;
+  height: 7rem;
 }
 
 .personal-picture2 > img {
   width: 75%;
+  height: 7rem;
 }
 
 .bio > p {
