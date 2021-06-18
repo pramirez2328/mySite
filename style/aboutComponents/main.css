@@ -39,6 +39,7 @@
   .personal-picture2 > img {
     width: 90%;
     height: 9rem;
+    margin-bottom: 1rem;
   }
 
   .personal-picture > img {
