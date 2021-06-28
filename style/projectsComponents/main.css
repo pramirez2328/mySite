@@ -10,7 +10,7 @@
 }
 
 .description {
-  width: 100%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -31,11 +31,15 @@
   background-color: red;
 }
 
-.lists {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
 }
+ul li {
+  text-align: start;
+}
+
 a {
   color: white;
 }
@@ -49,10 +53,23 @@ a:hover {
   }
 
   .description {
-    font-size: small;
+    font-size: xsmall;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .description h4 {
+    text-align: start;
+  }
+
+  ul li {
+    font-size: xx-small;
+  }
+
+  #video {
+    width: 100%;
+    margin: 1rem;
   }
 }

@@ -21,30 +21,29 @@
   text-align: left;
   width: 85%;
   margin: auto;
-  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
-  #section-languages {
-    width: 80%;
-    margin-top: 2rem;
+  #main {
+    height: 12rem;
   }
+
   .personal-picture {
     display: flex;
     justify-content: center;
-    height: 9rem;
+    height: 12rem;
   }
 
   .personal-picture2 > img {
     width: 90%;
-    height: 9rem;
+    height: 10rem;
     margin-bottom: 2rem;
   }
 
   .personal-picture > img {
-    width: 80%;
-    height: 11rem;
+    width: 90%;
+    height: 12rem;
   }
 
   .bio > p {
