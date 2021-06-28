@@ -17,16 +17,19 @@
 }
 
 .domain {
-  margin: 0;
+  margin: 1rem 0;
 }
 
 .github {
   margin: 0;
 }
 
+.lists h4 {
+  text-align: start;
+}
+
 #bar {
   width: 70%;
-
   border: 1px red solid;
   background-color: red;
 }
@@ -68,8 +71,12 @@ a:hover {
     font-size: xx-small;
   }
 
-  #video {
-    width: 100%;
+  #video1 {
+    width: 90%;
     margin: 1rem;
+  }
+
+  #video2 {
+    width: 90%;
   }
 }
