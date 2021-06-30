@@ -80,3 +80,36 @@ a:hover {
     width: 90%;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .projects {
+    align-items: flex-end;
+    height: 100%;
+  }
+
+  /* .description {
+    font-size: xsmall;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  } */
+
+  /* .description h4 {
+    text-align: start;
+  } */
+
+  /* ul li {
+    font-size: xx-small;
+  } */
+
+  #video1 {
+    width: 80%;
+    height: 100%;
+    margin-top: 1rem;
+  }
+
+  #video2 {
+    width: 70%;
+  }
+}
