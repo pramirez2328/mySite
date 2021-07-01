@@ -9,8 +9,8 @@
 
 #main-message {
   position: absolute;
-  left: 24rem;
-  top: 16rem;
+  left: 20rem;
+  top: 12rem;
 }
 
 .typed-cursor {
@@ -54,16 +54,6 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
-  #main-message {
-    font-size: small;
-    position: absolute;
-    left: 5rem;
-    top: 7rem;
-    margin: 0;
-  }
-}
-
 @media only screen and (max-width: 1024px) {
   #main-message {
     font-size: medium;
@@ -73,7 +63,21 @@
     margin: 0;
   }
 
-  .index-introduction {
+  p.index-introduction {
     font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #main-message {
+    font-size: small;
+    position: absolute;
+    left: 5rem;
+    top: 7rem;
+    margin: 0;
+  }
+
+  p.index-introduction {
+    font-size: large;
   }
 }
