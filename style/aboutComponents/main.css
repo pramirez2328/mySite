@@ -25,34 +25,6 @@
   margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
-  #main {
-    height: 12rem;
-  }
-
-  .personal-picture {
-    display: flex;
-    justify-content: center;
-    height: 12rem;
-  }
-
-  .personal-picture2 > img {
-    width: 90%;
-    height: 10rem;
-    margin-bottom: 2rem;
-  }
-
-  .personal-picture > img {
-    width: 90%;
-    height: 12rem;
-  }
-
-  .bio > p {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-
 @media only screen and (max-width: 1025px) {
   #main {
     height: 90%;
@@ -79,5 +51,34 @@
   .bio p {
     margin: 0 0 1rem 0;
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #main {
+    height: 12rem;
+  }
+
+  .personal-picture {
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+  }
+
+  .personal-picture2 > img {
+    width: 90%;
+    height: 10rem;
+    margin-bottom: 2rem;
+  }
+
+  .personal-picture > img {
+    width: 90%;
+    height: 12rem;
+    margin-top: 0;
+  }
+
+  .bio > p {
+    width: 100%;
+    margin-top: 0;
   }
 }
