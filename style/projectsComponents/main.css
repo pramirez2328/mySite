@@ -71,12 +71,12 @@ a:hover {
     font-size: xx-small;
   }
 
-  #video1 {
+  video#video1 {
     width: 90%;
     margin: 1rem;
   }
 
-  #video2 {
+  video#video2 {
     width: 90%;
   }
 }
