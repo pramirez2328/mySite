@@ -30,10 +30,17 @@
     height: 90%;
   }
 
+  #section-languages {
+    margin-top: 0;
+  }
   .personal-picture {
     display: flex;
     justify-content: flex-end;
     height: 100%;
+  }
+
+  .personal-picture img {
+    object-fit: cover;
   }
 
   .personal-picture2 > img {
