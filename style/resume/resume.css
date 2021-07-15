@@ -1,0 +1,12 @@
+#resume img {
+  box-shadow: 10px 5px 5px white;
+}
+
+body {
+  background-color: aqua;
+}
+
+p#resume-title {
+  color: pink;
+  font-size: xx-large;
+}

@@ -8,6 +8,7 @@
 @import "./aboutComponents/main.css";
 @import "./aboutComponents/bio.css";
 @import "./projectsComponents/main.css";
+@import "./resume/resume.css";
 
 body {
   background-color: black;
