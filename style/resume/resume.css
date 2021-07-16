@@ -1,11 +1,11 @@
-#resume img {
-  box-shadow: 10px 5px 5px white;
+#img {
+  width: 50%;
+  margin: auto;
 }
 
-body {
-  background-color: aqua;
+#img img {
+  width: 100%;
 }
-
 p#resume-title {
   color: pink;
   font-size: xx-large;
