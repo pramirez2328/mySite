@@ -20,6 +20,10 @@
   margin: 1rem 0;
 }
 
+.domain a {
+  color: red;
+}
+
 .github {
   margin: 0;
 }
@@ -28,7 +32,7 @@
   text-align: start;
 }
 
-#bar {
+.bar {
   width: 70%;
   border: 1px red solid;
   background-color: red;
@@ -77,7 +81,10 @@ a:hover {
   }
 
   video#video2 {
-    width: 90%;
+    width: 97%;
+  }
+  video#video3 {
+    width: 97%;
   }
 }
 
