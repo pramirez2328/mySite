@@ -8,3 +8,52 @@
 #img img {
   width: 100%;
 }
+
+#aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+}
+
+.icons > a > i {
+  font-size: 1.5rem;
+  color: white;
+  background-color: red;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.icons > a > i:hover {
+  color: rgb(22, 155, 208);
+  background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  #main {
+    height: max-content;
+  }
+  #icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  #contact {
+    margin: 0;
+    font-size: medium;
+  }
+
+  .icons > a > i {
+    font-size: 1rem;
+  }
+
+  #img {
+    width: 100%;
+    margin-top: 1em;
+  }
+}
