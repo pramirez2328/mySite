@@ -63,4 +63,8 @@ body {
       "aside"
       "footer";
   }
+
+  #aside {
+    margin-top: 0 !important;
+  }
 }
