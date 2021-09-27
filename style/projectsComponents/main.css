@@ -86,6 +86,14 @@ a:hover {
   video#video3 {
     width: 97%;
   }
+
+  video#video4 {
+    width: 97%;
+  }
+
+  video#video5 {
+    width: 97%;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -116,7 +124,10 @@ a:hover {
     margin-top: 1rem;
   }
 
-  #video2 {
+  #video2,
+  #video3,
+  #video4,
+  #video5 {
     width: 70%;
   }
 }
