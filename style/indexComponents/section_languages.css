@@ -4,7 +4,7 @@
 }
 
 .index-introduction {
-  font-size: 2rem;
+  font-size: 3.2rem;
   font-family: cursive;
   font-weight: bold;
   border-radius: 7px;
@@ -12,7 +12,7 @@
   width: 50%;
   padding: 1rem;
   margin: auto;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px rgb(248, 3, 3);
 }
 
 hr {
@@ -21,7 +21,7 @@ hr {
 }
 
 .index-introduction2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 #typed2 {
