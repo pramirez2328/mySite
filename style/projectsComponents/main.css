@@ -17,10 +17,7 @@
 }
 
 .domain {
-  margin: 1rem 0;
-}
-
-.domain a {
+  margin: 0;
   color: red;
 }
 
