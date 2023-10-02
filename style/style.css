@@ -1,19 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
-@import "./indexComponents/navbar.css";
-@import "./indexComponents/maincontent.css";
-@import "./indexComponents/contacts_icons.css";
-@import "./indexComponents/section_languages.css";
-@import "./indexComponents/footer.css";
-@import "./aboutComponents/main.css";
-@import "./aboutComponents/bio.css";
-@import "./projectsComponents/main.css";
-@import "./resume/resume.css";
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import './indexComponents/navbar.css';
+@import './indexComponents/maincontent.css';
+@import './indexComponents/contacts_icons.css';
+@import './indexComponents/section_languages.css';
+@import './indexComponents/footer.css';
+@import './aboutComponents/main.css';
+@import './aboutComponents/bio.css';
+@import './projectsComponents/main.css';
+@import './resume/resume.css';
 
 body {
   background-color: black;
   color: white;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 #nav {
@@ -43,10 +43,10 @@ body {
   grid-template-columns: 80% 20%;
   grid-template-rows: auto auto auto auto;
   grid-template-areas:
-    "nav nav"
-    "main aside"
-    "section-icons section-icons"
-    "footer footer";
+    'nav nav'
+    'main aside'
+    'section-icons section-icons'
+    'footer footer';
 }
 
 @media only screen and (max-width: 600px) {
@@ -57,11 +57,11 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
     grid-template-areas:
-      "nav"
-      "main"
-      "section-icons "
-      "aside"
-      "footer";
+      'nav'
+      'main'
+      'section-icons '
+      'aside'
+      'footer';
   }
 
   #aside {
