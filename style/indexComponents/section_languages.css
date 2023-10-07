@@ -26,12 +26,12 @@ hr {
 
 #typed2 {
   font-size: 1.5rem;
-  font-family: "Mate SC", serif;
+  font-family: 'Mate SC', serif;
 }
 
 .programming_icons > img {
-  width: 50px;
-  height: 50px;
+  width: 57px;
+  height: 57px;
 }
 
 .programming_icons {
@@ -58,7 +58,7 @@ img.icon {
 }
 
 .language-name {
-  font-size: medium;
+  font-size: 0.55em;
 }
 
 @media only screen and (max-width: 600px) {
