@@ -19,16 +19,6 @@
   width: 100%;
 }
 
-#aside {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 40px;
-}
-
 .icons > a > i {
   font-size: 1.5rem;
   color: white;
