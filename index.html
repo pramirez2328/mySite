@@ -30,7 +30,6 @@
           </li>
         </ul>
       </div>
-      <h2 id="main-message"><span id="typed"></span></h2>
       <div id="main">
         <div id="main-picture">
           <img src="./style/images/index2.jpg" alt="picture" />
@@ -38,9 +37,10 @@
       </div>
 
       <div id="section-languages">
+        <h2 id="main-message"><span id="typed"></span></h2>
         <p class="index-introduction">
-          “First, I solve the problem. <br />
-          Then, I'll write the code.”
+          First, I solve the problem. <br />
+          Then, I'll write the code!
         </p>
         <hr />
         <p class="index-introduction2">My Name Is Pedro Ramirez</p>
@@ -111,16 +111,22 @@
         <h2 id="contact">Contact:</h2>
         <br />
         <div id="icons">
+          <p>Email</p>
           <p class="icons">
             <a href="mailto:engpramirez77@gmail.com"> <i class="fas fa-envelope"></i></a>
           </p>
           <br />
-
+          <p>Phone</p>
+          <p class="icons">
+            <a href="tel:18722146231"><i class="fas fa-phone"></i></a>
+          </p>
+          <br />
+          <p>GitHub</p>
           <p class="icons">
             <a href="https://github.com/pramirez2328"><i class="fab fa-github-square"></i></a>
           </p>
           <br />
-
+          <p>LinkedIn</p>
           <p class="icons">
             <a href="https://www.linkedin.com/in/pedro-ramirez-200942162/">
               <i class="fab fa-linkedin"></i>
@@ -130,7 +136,9 @@
       </div>
 
       <div id="footer">
-        <h6 class="footer">&#169; Proudly created by Pedro Ramirez</h6>
+        <p class="footer">
+          <span class="symbol">&lowast;</span> Proudly created by <span class="name">Pedro Ramirez</span>
+        </p>
       </div>
     </div>
 
@@ -145,9 +153,9 @@
 
     <script>
       var welcome = new Typed('#typed', {
-        strings: ['I Am...', '...A Full Stack Developer!'],
-        backSpeed: 40,
-        typeSpeed: 40,
+        strings: ['I Am a Full Stack Developer...', '...Specialized in Front-end development!'],
+        backSpeed: 45,
+        typeSpeed: 45,
         loop: true,
       });
       var welcome2 = new Typed('#typed2', {
