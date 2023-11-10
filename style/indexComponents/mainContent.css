@@ -9,9 +9,9 @@
 
 .typed-cursor {
   opacity: 1;
-  -webkit-animation: blink 0.5s infinite;
-  -moz-animation: blink 0.5s infinite;
-  animation: blink 0.5s infinite;
+  -webkit-animation: blink 0.5s 10s;
+  -moz-animation: blink 0.5s 10s;
+  animation: blink 0.5s 10s;
 }
 
 @keyframes rotateAnimation {

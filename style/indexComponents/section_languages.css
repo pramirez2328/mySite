@@ -58,9 +58,9 @@ img.icon {
   font-size: 0.55em;
 }
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 1055px) {
   #main-message {
-    margin: 1em 0 0 0;
+    margin: 0;
   }
 
   #typed {

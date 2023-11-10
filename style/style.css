@@ -13,6 +13,7 @@ body {
   background-color: black;
   color: white;
   font-family: 'Antic Didone', serif;
+  margin: 0;
 }
 
 #nav {
@@ -37,7 +38,7 @@ body {
 
 #container {
   width: 95%;
-  margin: 0 auto;
+  margin: 0;
   display: grid;
   grid-template-columns: 80% 20%;
   grid-template-rows: auto auto auto auto;
@@ -56,7 +57,7 @@ body {
   position: -webkit-sticky;
   position: fixed;
   right: 4.5em;
-  top: 3em;
+  top: 9em;
 }
 
 #icons {
@@ -74,17 +75,13 @@ body {
 }
 
 #nav {
-  background: rgb(250, 4, 4);
-  background: linear-gradient(
-    0deg,
-    rgba(250, 4, 4, 0) 0%,
-    rgba(249, 4, 4, 0) 0%,
-    rgba(154, 0, 0, 1) 77%,
-    rgba(154, 0, 0, 1) 100%
-  );
+  z-index: 1001;
+  background: rgb(250, 0, 0);
+  background: radial-gradient(circle, rgba(251, 63, 63, 1) 0%, rgba(0, 0, 0, 0.9738095921962535) 100%);
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
+  margin: 0 0 1em 0;
 }
 
 #nav > #ulnav {
@@ -106,7 +103,7 @@ body {
   color: rgb(41, 187, 250);
 }
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 1055px) {
   #container {
     width: 95%;
     margin: 0 auto;
@@ -150,5 +147,13 @@ body {
 
   .icons > a > i {
     font-size: 1rem;
+  }
+
+  .aLinks {
+    font-size: 1rem;
+  }
+
+  #nav > #ulnav {
+    margin: 1rem;
   }
 }
