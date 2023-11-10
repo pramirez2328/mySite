@@ -104,9 +104,3 @@ img.icon {
     font-size: x-small;
   }
 }
-
-@media only screen and (max-width: 1024px) {
-  /* .index-introduction {
-    font-size: 3.2rem;
-  } */
-}
