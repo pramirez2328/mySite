@@ -43,7 +43,7 @@ body {
   grid-template-rows: auto auto auto auto;
   grid-template-areas:
     'nav nav'
-    'main aside'
+    'main main'
     'section-icons section-icons'
     'footer footer';
 }
@@ -54,18 +54,8 @@ body {
   align-items: center;
   margin-top: 4rem;
   position: -webkit-sticky;
-  position: sticky;
-  top: 40px;
-}
-
-#aside-resume {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
-  position: -webkit-sticky;
   position: fixed;
-  right: auto;
+  right: 4.5em;
   top: 3em;
 }
 
@@ -83,13 +73,46 @@ body {
   font-size: 2.2em;
 }
 
-@media only screen and (max-width: 600px) {
+#nav {
+  background: rgb(250, 4, 4);
+  background: linear-gradient(
+    0deg,
+    rgba(250, 4, 4, 0) 0%,
+    rgba(249, 4, 4, 0) 0%,
+    rgba(154, 0, 0, 1) 77%,
+    rgba(154, 0, 0, 1) 100%
+  );
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+#nav > #ulnav {
+  display: flex;
+  flex: row;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-left: 0;
+  margin: 2rem 0 2rem 0;
+}
+
+.aLinks {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.aLinks:hover {
+  color: rgb(41, 187, 250);
+}
+
+@media only screen and (max-width: 970px) {
   #container {
     width: 95%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-rows: auto;
     grid-template-areas:
       'nav'
       'main'
@@ -99,16 +122,33 @@ body {
   }
 
   #aside {
-    margin-top: 0 !important;
-    align-items: normal;
+    display: block;
+    position: static;
+    margin-top: 0;
   }
 
-  #aside-resume {
+  #icons {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: -webkit-sticky;
-    position: sticky;
+    justify-content: space-evenly;
+    width: 100%;
     margin-top: 0;
+  }
+
+  #aside {
+    display: flex;
+  }
+
+  #icons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #contact {
+    margin: 0;
+    font-size: medium;
+  }
+
+  .icons > a > i {
+    font-size: 1rem;
   }
 }

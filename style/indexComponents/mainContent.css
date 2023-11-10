@@ -24,7 +24,7 @@
 }
 
 #main-picture {
-  animation: rotateAnimation 7s;
+  animation: rotateAnimation 2s ease-in-out;
 }
 
 @keyframes blink {
@@ -60,33 +60,5 @@
   }
   100% {
     opacity: 1;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  #main-message {
-    font-size: medium;
-    position: absolute;
-    left: 11rem;
-    top: 12rem;
-    margin: 0;
-  }
-
-  p.index-introduction {
-    font-size: 1rem;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #main-message {
-    font-size: small;
-    position: absolute;
-    left: 5rem;
-    top: 7rem;
-    margin: 0;
-  }
-
-  p.index-introduction {
-    font-size: large;
   }
 }

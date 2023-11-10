@@ -58,19 +58,29 @@ img.icon {
   font-size: 0.55em;
 }
 
-@media only screen and (max-width: 600px) {
-  #section-languages {
-    width: 90%;
-    margin: 1rem;
-    font-size: small;
-    text-align: center;
+@media only screen and (max-width: 970px) {
+  #main-message {
+    margin: 1em 0 0 0;
+  }
+
+  #typed {
+    font-size: 0.45em;
   }
 
   .index-introduction {
     margin-top: 0;
-    font-size: 1.7rem !important ;
+    font-size: 0.8em;
     font-weight: bold;
     width: 80%;
+  }
+
+  #section-languages {
+    width: 85%;
+    margin: auto;
+  }
+
+  #section-languages p:nth-child(5) {
+    font-size: 0.6em;
   }
 
   .index-introduction2 {
@@ -78,7 +88,7 @@ img.icon {
   }
 
   #typed2 {
-    font-size: small;
+    font-size: medium;
   }
 
   .progra_icons {
@@ -96,7 +106,7 @@ img.icon {
 }
 
 @media only screen and (max-width: 1024px) {
-  .index-introduction {
+  /* .index-introduction {
     font-size: 3.2rem;
-  }
+  } */
 }

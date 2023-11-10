@@ -1,18 +1,11 @@
-#main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 #img {
   width: 77%;
   margin: auto;
   display: flex;
-  float: right;
 }
 
 #downloadResume {
-  margin: 2em;
+  margin: 2em auto;
   border: 1px solid rgb(255, 255, 255);
   width: fit-content;
   padding: 7px;
@@ -49,31 +42,14 @@
   background-color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 970px) {
   #main {
     height: fit-content !important;
     margin-bottom: 2em;
   }
 
   #downloadResume {
-    margin: 0.5em;
     font-size: small;
-  }
-
-  #icons {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    margin-top: 0;
-  }
-
-  #contact {
-    margin: 0;
-    font-size: medium;
-  }
-
-  .icons > a > i {
-    font-size: 1rem;
   }
 
   #img {
