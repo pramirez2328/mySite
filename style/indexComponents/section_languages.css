@@ -63,6 +63,14 @@ img.icon {
     margin: 0;
   }
 
+  #main-message > .typed-cursor {
+    font-size: 0.45em;
+  }
+
+  .typed-cursor {
+    font-size: 0.6em;
+  }
+
   #typed {
     font-size: 0.6em;
   }
