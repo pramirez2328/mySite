@@ -18,7 +18,7 @@
 }
 
 .domain {
-  margin: 0;
+  margin: 7px;
   color: red;
 }
 
@@ -52,9 +52,36 @@ a:hover {
   color: red;
 }
 
+@keyframes colorChange {
+  0% {
+    color: white;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: white;
+  }
+}
+.project-live a {
+  text-decoration: none;
+}
+
+.project-live a span {
+  color: white;
+  display: inline-block;
+  animation: colorChange 3s forwards infinite;
+  animation-delay: calc(0.1s * var(--i)); /* Use the --i variable to set the animation delay */
+  transition: color 7s; /* Add a transition for smoother effect */
+}
+
 @media only screen and (max-width: 1055px) {
   .projects {
     align-items: center;
+  }
+
+  .project-live a span {
+    font-size: 0.8em;
   }
 
   .domain {
@@ -87,8 +114,7 @@ a:hover {
   }
 
   video#video1 {
-    width: 90%;
-    margin: 1rem;
+    width: 100%;
   }
 
   video#video2 {

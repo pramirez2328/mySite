@@ -34,45 +34,116 @@
       <div id="main">
         <div class="projects">
           <video id="video1" width="67%" height="100%" controls autoplay>
-            <source src="../style/images/fridgify.mp4" type="video/mp4" />
+            <source src="../style/images/fourguys.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
       <div id="section-languages">
         <div class="videoDescription">
-          <h1 class="domain">Fridgify</h1>
-          <h3>Web application to generate recipes</h3>
+          <h1 class="domain">Four Guys</h1>
+          <h3 style="margin: 0.4em 0">Web App to create, update, and delete orders</h3>
+          <h3 class="project-live">
+            <a href="https://pramirez2328.github.io/four-guys/">
+              <span class="first">S</span>
+              <span class="second">e</span>
+              <span class="third">e</span>
+              <span class="fourth"> </span>
+              <span class="fifth">t</span>
+              <span class="sixth">h</span>
+              <span class="seventh">e</span>
+              <span class="eighth"> </span>
+              <span class="ninth">p</span>
+              <span class="tenth">r</span>
+              <span class="eleventh">o</span>
+              <span class="twelfth">j</span>
+              <span class="thirteenth">e</span>
+              <span class="fourteenth">c</span>
+              <span class="fifteenth">t</span>
+              <span class="sixteenth"> </span>
+              <span class="seventeenth">l</span>
+              <span class="eighteenth">i</span>
+              <span class="nineteenth">v</span>
+              <span class="twentieth">e</span>
+              <span class="twenty-first">!</span>
+            </a>
+          </h3>
+
           <h4 class="github">
             GitHub: &nbsp
-            <a href="https://github.com/pramirez2328/Fridgify">project link</a>
+            <a href="https://github.com/pramirez2328/four-guys">project link</a>
           </h4>
 
           <div class="description">
             <div class="lists">
               <h4>Technologies used:</h4>
               <ul>
-                <li>Ruby on Rails</li>
-                <li>Javascript</li>
-                <li>HTML</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>React-Router</li>
+                <li>Reactstrap</li>
                 <li>Bootstrap</li>
-                <li>SCSS</li>
-                <li>PostgreSQL</li>
+                <li>Leaflet API</li>
               </ul>
             </div>
 
             <div class="lists">
               <h4>Features:</h4>
               <ul>
-                <li>Voice recognition</li>
-                <li>Login</li>
-                <li>create custom recipes</li>
-                <li>User can save his recipes</li>
-                <li>user can delete any recipes</li>
+                <li>Create custom orders</li>
+                <li>Find the closest real Five Guys store</li>
+                <li>Check menu calories</li>
+                <li>Checkout Payment</li>
+                <li>Response design</li>
                 <li>Advance search(API calling)</li>
               </ul>
             </div>
           </div>
         </div>
+        <br />
+
+        <hr class="bar" />
+        <br />
+        <br />
+        <div>
+          <video id="video1" width="67%" height="100%" autoplay>
+            <source src="../style/images/fridgify.mp4" type="video/mp4" />
+          </video>
+          <div class="videoDescription">
+            <h1 class="domain">Fridgify</h1>
+            <h3>Web application to generate recipes</h3>
+            <h4 class="github">
+              GitHub: &nbsp
+              <a href="https://github.com/pramirez2328/Fridgify">project link</a>
+            </h4>
+
+            <div class="description">
+              <div class="lists">
+                <h4>Technologies used:</h4>
+                <ul>
+                  <li>Ruby on Rails</li>
+                  <li>Javascript</li>
+                  <li>HTML</li>
+                  <li>Bootstrap</li>
+                  <li>SCSS</li>
+                  <li>PostgreSQL</li>
+                </ul>
+              </div>
+
+              <div class="lists">
+                <h4>Features:</h4>
+                <ul>
+                  <li>Voice recognition</li>
+                  <li>Login</li>
+                  <li>create custom recipes</li>
+                  <li>User can save his recipes</li>
+                  <li>user can delete any recipes</li>
+                  <li>Advance search(API calling)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <br />
 
         <hr class="bar" />
@@ -282,6 +353,15 @@
     </div>
 
     <!-- <script src="" async defer></script> -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        let spans = document.querySelectorAll('.project-live a span');
+        spans.forEach((span, index) => {
+          span.style.setProperty('--i', index + 1); // Adding 1 to start index from 1
+        });
+      });
+    </script>
+
     <script src="https://kit.fontawesome.com/7922aefa39.js" crossorigin="anonymous"></script>
   </body>
 </html>
