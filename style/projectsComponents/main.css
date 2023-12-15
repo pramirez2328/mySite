@@ -73,6 +73,7 @@ a:hover {
 
 .project-live a span {
   color: white;
+  letter-spacing: -4px;
   display: inline-block;
   -webkit-animation: colorChange 3s forwards infinite;
   animation: colorChange 3s forwards infinite;
@@ -143,12 +144,6 @@ a:hover {
 
 @media only screen and (max-width: 500px) {
   .project-live a span {
-    font-size: 0.7em;
-  }
-}
-
-@media only screen and (max-width: 420px) {
-  .project-live a span {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
 }
