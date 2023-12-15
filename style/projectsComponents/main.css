@@ -74,9 +74,13 @@ a:hover {
 .project-live a span {
   color: white;
   display: inline-block;
+  -webkit-animation: colorChange 3s forwards infinite;
   animation: colorChange 3s forwards infinite;
-  animation-delay: calc(0.1s * var(--i)); /* Use the --i variable to set the animation delay */
-  transition: color 7s; /* Add a transition for smoother effect */
+  -webkit-animation-delay: calc(0.1s * var(--i));
+  animation-delay: calc(0.1s * var(--i));
+  -webkit-transition: color 7s;
+  transition: color 7s;
+  transform: translateZ(0);
 }
 
 @media only screen and (max-width: 1055px) {
