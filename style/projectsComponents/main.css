@@ -83,13 +83,19 @@ a:hover {
   transform: translateZ(0);
 }
 
+@media only screen and (max-width: 500px) {
+  .project-live a span {
+    font-size: 0.7em;
+  }
+}
+
 @media only screen and (max-width: 1055px) {
   .projects {
     align-items: center;
   }
 
   .project-live a span {
-    font-size: 0.8em;
+    font-size: 0.1em;
   }
 
   .domain {
