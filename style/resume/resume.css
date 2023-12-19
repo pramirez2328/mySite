@@ -1,7 +1,17 @@
-#img {
-  width: 77%;
-  margin: auto;
+#main {
   display: flex;
+  flex-direction: column;
+}
+
+#section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#section1 #name {
+  color: red;
 }
 
 #downloadResume {
@@ -25,10 +35,6 @@
   color: white;
 }
 
-#img img {
-  width: 100%;
-}
-
 .icons > a > i {
   font-size: 1.5rem;
   color: white;
@@ -50,10 +56,5 @@
 
   #downloadResume {
     font-size: small;
-  }
-
-  #img {
-    width: 100%;
-    margin-top: 1em;
   }
 }
