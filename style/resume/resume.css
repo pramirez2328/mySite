@@ -160,8 +160,13 @@
 }
 
 .bachelor {
+  display: flex;
+}
+
+#bachelor-title {
+  margin-right: 4px;
   border-bottom: 2px solid red;
-  padding-bottom: 4px;
+  padding-bottom: 3px;
 }
 .icons > a > i {
   font-size: 1.5rem;
@@ -186,9 +191,77 @@
     font-size: small;
   }
 
-  /* #skills {
-    width: 100%;
+  #section1 h4 {
+    text-align: center;
+  }
+
+  .areas-of-expertise > ul > li,
+  .ul-container ul li,
+  #section5 ul li {
+    font-size: 1em;
+  }
+
+  .bachelor {
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .bachelor {
     flex-direction: column;
-    align-items: center;
-  } */
+  }
+
+  #bachelor-title {
+    width: fit-content;
+    margin-bottom: 0;
+  }
+
+  .bachelor p {
+    margin: 4px 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .areas-of-expertise {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #skills div {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 447px) {
+  #skills div {
+    width: fit-content;
+  }
+
+  #section1 #title {
+    font-size: 1.8em;
+  }
+
+  #section1 #name {
+    font-size: 1.3em;
+  }
+
+  .jobs h4 {
+    margin-top: 0;
+  }
+
+  .section-titles {
+    font-size: 1.2em;
+  }
+
+  .ul-container ul,
+  #section5 ul {
+    margin-left: 0;
+  }
+
+  .areas-of-expertise > ul > li,
+  .ul-container ul li,
+  #section5 ul li {
+    font-size: 0.9em;
+  }
 }
