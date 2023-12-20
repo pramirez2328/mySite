@@ -1,5 +1,10 @@
 #section-languages {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.description ul li {
+  text-align: start;
 }
 
 .index-introduction {
