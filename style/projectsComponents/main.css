@@ -36,15 +36,6 @@
   background-color: red;
 }
 
-ul {
-  list-style-type: none;
-  margin-left: 0;
-  padding-left: 0;
-}
-ul li {
-  text-align: start;
-}
-
 a {
   color: white;
 }

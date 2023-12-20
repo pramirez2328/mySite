@@ -3,17 +3,6 @@
   flex-direction: column;
 }
 
-#section1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#section1 #name {
-  color: red;
-}
-
 #downloadResume {
   margin: 2em auto;
   border: 1px solid rgb(255, 255, 255);
@@ -35,6 +24,145 @@
   color: white;
 }
 
+#section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#section1 #name {
+  font-size: 1.7em;
+  margin: 0;
+}
+
+#section1 #title {
+  font-size: 2.5em;
+  margin: 0;
+  background: linear-gradient(90deg, red, white, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+#section1 h4 {
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  padding: 1em 0;
+}
+
+#section1 .summary {
+  text-align: center;
+  margin: 0 0 1.5em 0;
+}
+
+#section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-titles {
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  color: red;
+  margin: 1em 0 0 0;
+  font-weight: 900;
+  text-align: center;
+}
+
+.areas-of-expertise {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.areas-of-expertise > ul {
+  list-style: square;
+}
+
+.areas-of-expertise > ul > li {
+  margin: 0.5em 0;
+}
+
+#section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 1em;
+}
+
+.list-underline {
+  width: 7em;
+}
+
+#skills > div > h3 {
+  margin: 0 0 0.5em 0;
+}
+
+#section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobs-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.job-description {
+  width: 100%;
+}
+
+.ul-container ul,
+#section5 ul {
+  margin-left: 2em;
+  list-style: square;
+}
+
+.jobs h4 {
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.job-title {
+  margin: 0;
+  text-align: center;
+}
+
+#section5 {
+  width: 80%;
+  margin: auto;
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5 {
+  width: 80%;
+  padding: 0 2em;
+  margin: auto;
+}
+
+.bachelor {
+  border-bottom: 2px solid red;
+  padding-bottom: 4px;
+}
 .icons > a > i {
   font-size: 1.5rem;
   color: white;
@@ -57,4 +185,10 @@
   #downloadResume {
     font-size: small;
   }
+
+  /* #skills {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  } */
 }
