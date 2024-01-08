@@ -73,6 +73,11 @@ body {
   color: red;
 }
 
+.heart {
+  font-size: 1.1em;
+  color: red;
+}
+
 #nav {
   z-index: 1001;
   background: rgb(250, 0, 0);
