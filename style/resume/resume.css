@@ -168,18 +168,6 @@
   border-bottom: 2px solid red;
   padding-bottom: 3px;
 }
-.icons > a > i {
-  font-size: 1.5rem;
-  color: white;
-  background-color: red;
-  padding: 0.5rem;
-  border-radius: 4px;
-}
-
-.icons > a > i:hover {
-  color: rgb(22, 155, 208);
-  background-color: white;
-}
 
 @media only screen and (max-width: 1055px) {
   #main {

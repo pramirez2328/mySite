@@ -97,6 +97,19 @@ body {
   margin: 2rem 0 2rem 0;
 }
 
+.icons > a > i {
+  font-size: 1.3rem;
+  color: white;
+  background-color: red;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.icons > a > i:hover {
+  color: rgb(22, 155, 208);
+  background-color: white;
+}
+
 .aLinks {
   color: white;
   font-size: 1.5rem;
@@ -149,8 +162,8 @@ body {
     font-size: medium;
   }
 
-  .icons > a > i {
-    font-size: 1rem;
+  #top {
+    display: none;
   }
 
   .aLinks {
