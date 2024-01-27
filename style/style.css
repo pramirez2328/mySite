@@ -125,6 +125,10 @@ body {
   display: none;
 }
 
+#scroller > a {
+  color: white !important;
+}
+
 @media only screen and (max-width: 1055px) {
   #container {
     width: 95%;
@@ -182,7 +186,7 @@ body {
   #scroller {
     position: fixed;
     top: 7rem;
-    right: 0.7rem;
+    right: 1rem;
     z-index: 1000;
   }
 
