@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-  let scrollUpButton = document.getElementById('top');
-
   window.onscroll = function () {
     scrollFunction();
   };
@@ -8,19 +6,23 @@ document.addEventListener('DOMContentLoaded', function () {
   function scrollFunction() {
     // Check if the screen width is greater than 1055px
     if (window.innerWidth > 1055) {
-      if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
-        scrollUpButton.style.display = 'block';
+      console.log('Desktop');
+      let scrollButtonDesktop = document.getElementById('top');
+      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        console.log('Scrolling', document.documentElement.scrollTop);
+        scrollButtonDesktop.style.display = 'block';
       } else {
-        scrollUpButton.style.display = 'none';
+        scrollButtonDesktop.style.display = 'none';
       }
     } else {
       // If screen width is not greater than 1055px, always hide the button
-      scrollUpButton.style.display = 'none';
+      console.log('Mobile');
+      let scrollButtonMobile = document.getElementById('scroller');
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        scrollButtonMobile.style.display = 'block';
+      } else {
+        scrollButtonMobile.style.display = 'none';
+      }
     }
   }
-
-  scrollUpButton.addEventListener('click', function () {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-  });
 });

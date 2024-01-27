@@ -120,7 +120,8 @@ body {
   color: rgb(5, 238, 255);
 }
 
-#top {
+#top,
+#scroller {
   display: none;
 }
 
@@ -176,5 +177,25 @@ body {
 
   #nav > #ulnav {
     margin: 1rem;
+  }
+
+  #scroller {
+    position: fixed;
+    top: 7rem;
+    right: 1.2rem;
+    z-index: 1000;
+  }
+
+  #scroller > a {
+    color: white !important;
+    font-size: 1.1rem;
+  }
+
+  #scroller > a:hover {
+    color: rgb(255, 5, 5) !important;
+  }
+
+  #top {
+    display: none;
   }
 }
