@@ -182,7 +182,7 @@ body {
   #scroller {
     position: fixed;
     top: 7rem;
-    right: 1.2rem;
+    right: 0.7rem;
     z-index: 1000;
   }
 
