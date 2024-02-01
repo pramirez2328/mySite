@@ -104,7 +104,7 @@
 
 .list-underline {
   width: 6em;
-  padding: 1px;
+  padding: 1.5px;
   background-color: red;
 }
 
@@ -224,7 +224,7 @@
     flex-direction: column;
   }
 
-  #skills div {
+  #skills > div {
     width: 50%;
   }
 
