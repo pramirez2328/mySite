@@ -35,7 +35,7 @@ body {
 }
 
 #container {
-  width: 95%;
+  width: 100%;
   margin: 0;
   display: grid;
   grid-template-columns: 80% 20%;
@@ -54,8 +54,8 @@ body {
   margin-top: 4rem;
   position: -webkit-sticky;
   position: fixed;
-  right: 4.5em;
-  top: 9em;
+  right: 3em;
+  top: 10em;
 }
 
 #icons {
@@ -131,7 +131,6 @@ body {
 
 @media only screen and (max-width: 1055px) {
   #container {
-    width: 95%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
