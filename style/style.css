@@ -120,9 +120,10 @@ body {
   color: rgb(5, 238, 255);
 }
 
-#top,
 #scroller {
   display: none;
+  margin-top: 3em;
+  font-size: 1.5em;
 }
 
 #scroller > a {
@@ -170,10 +171,6 @@ body {
     font-size: medium;
   }
 
-  #top {
-    display: none;
-  }
-
   .aLinks {
     font-size: 1rem;
   }
@@ -184,21 +181,12 @@ body {
 
   #scroller {
     position: fixed;
-    top: 7rem;
-    right: 0.8rem;
+    top: 20rem;
+    right: 0.6rem;
     z-index: 1000;
   }
 
-  #scroller > a {
-    color: white !important;
+  #aside > #scroller > p > a > i {
     font-size: 1.1rem;
-  }
-
-  #scroller > a:hover {
-    color: rgb(255, 5, 5) !important;
-  }
-
-  #top {
-    display: none;
   }
 }
