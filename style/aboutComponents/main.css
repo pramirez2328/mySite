@@ -1,3 +1,7 @@
+:root {
+  --border-color: #f90202;
+}
+
 .personal-picture {
   display: flex;
   justify-content: center;
@@ -5,8 +9,9 @@
 
 .personal-picture > img {
   width: 72%;
-  border-radius: 12px;
-  border: solid rgb(247, 242, 242) 0.5px;
+  border-radius: 4px;
+  border-top: 4px solid var(--border-color);
+  border-left: 4px solid var(--border-color);
 }
 
 .bio > p {
