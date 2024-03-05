@@ -1,5 +1,5 @@
 #section-languages {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   text-align: center;
 }
 
@@ -9,20 +9,13 @@
 
 .index-introduction {
   font-size: 2.4rem;
-  border-radius: 7px;
-  color: white;
-  width: 50%;
+  border-top: 3px solid red;
+  border-radius: 4px;
+  width: fit-content;
+  border-bottom: 3px solid red;
   padding: 1rem;
-  margin: auto;
-}
-
-hr {
-  width: 30%;
-  border: red 1px solid;
-}
-
-.index-introduction2 {
-  font-size: 1.5rem;
+  margin: 1em auto;
+  font-family: 'Allura';
 }
 
 #typed2 {
@@ -31,8 +24,8 @@ hr {
 }
 
 .programming_icons > img {
-  width: 57px;
-  height: 57px;
+  width: 77px;
+  height: 77px;
 }
 
 .programming_icons {
@@ -75,13 +68,18 @@ img.icon {
     font-size: 0.7em;
   }
 
-  #typed {
-    font-size: 0.6em;
+  .index-hr {
+    width: 90%;
+  }
+
+  #typed,
+  #typed2 {
+    font-size: 0.8em;
   }
 
   .index-introduction {
     margin-top: 0;
-    font-size: 0.8em;
+    font-size: 1.4em;
     font-weight: bold;
     width: 80%;
   }
@@ -91,25 +89,13 @@ img.icon {
     margin: auto;
   }
 
-  #section-languages p:nth-child(5) {
-    font-size: 0.6em;
-  }
-
-  .index-introduction2 {
-    font-size: 1rem;
-  }
-
-  #typed2 {
-    font-size: medium;
-  }
-
   .progra_icons {
     justify-content: space-between;
   }
 
   .programming_icons > img {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
   }
 
   .language-name {

@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="./style/indexComponents/section_languages.css" />
     <link rel="stylesheet" href="./style/indexComponents/contacts_icons.css" />
     <link rel="stylesheet" href="./style/indexComponents/footer.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+    </style>
   </head>
 
   <body>
@@ -53,11 +56,7 @@
 
       <div id="section-languages">
         <h2 id="main-message"><span id="typed"></span></h2>
-        <p class="index-introduction">
-          First, I solve the problem. <br />
-          Then, I'll write the code!
-        </p>
-        <hr />
+
         <p class="index-introduction2">My Name Is Pedro Ramirez</p>
         <p>I have written code using:</p>
         <span id="typed2"></span>
@@ -101,37 +100,56 @@
         <div class="progra_icons">
           <picture class="programming_icons">
             <source srcset="./style/images/index/ruby.webp" />
-            <img class="icon" src="./style/images/ruby.png" alt="ruby icon" />
+            <img class="icon" src="./style/images/index/ruby.webp" alt="ruby icon" />
             <p class="language-name">Ruby</p>
           </picture>
           <picture class="programming_icons">
             <source srcset="./style/images/index/node.webp" />
-            <img class="icon" src="./style/images/node.jpg" alt="node icon" />
+            <img class="icon" src="./style/images/index/node.webp" alt="node icon" />
             <p class="language-name">Node.js</p>
           </picture>
           <picture class="programming_icons">
             <source srcset="./style/images/index/mongo.webp" />
-            <img class="icon" src="./style/images/mongo.png" alt="mongo icon" />
+            <img class="icon" src="./style/images/index/mongo.webp" alt="mongo icon" />
             <p class="language-name">MongoDB</p>
           </picture>
         </div>
         <div class="progra_icons">
           <picture class="programming_icons">
             <source srcset="./style/images/index/html5.webp" />
-            <img class="icon" src="./style/images/html5.png" alt="html icon" />
+            <img class="icon" src="./style/images/index/html5.webp" alt="html icon" />
             <p class="language-name">HTML</p>
           </picture>
           <picture class="programming_icons">
             <source srcset="./style/images/index/css.webp" />
-            <img class="icon" src="./style/images/css.png" alt="css icon" />
+            <img class="icon" src="./style/images/index/css.webp" alt="css icon" />
             <p class="language-name">CSS</p>
           </picture>
           <picture class="programming_icons">
             <source srcset="./style/images/index/sql.webp" />
-            <img class="icon" src="./style/images/sql.png" alt="sql icon" />
+            <img class="icon" src="./style/images/index/sql.webp" alt="sql icon" />
             <p class="language-name">SQL</p>
           </picture>
         </div>
+        <div class="progra_icons">
+          <picture class="programming_icons">
+            <source srcset="./style/images/index/bootstrap.png" />
+            <img class="icon" src="./style/images/index/bootstrap.png" alt="html icon" />
+            <p class="language-name">Bootstrap</p>
+          </picture>
+          <picture class="programming_icons">
+            <source srcset="./style/images/index/redux.png" />
+            <img class="icon" src="./style/images/index/redux.png" alt="css icon" />
+            <p class="language-name">Redux</p>
+          </picture>
+          <picture class="programming_icons">
+            <source srcset="./style/images/index/tailwinds.png" />
+            <img class="icon" src="./style/images/index/tailwinds.png" alt="sql icon" />
+            <p class="language-name">Tailwinds</p>
+          </picture>
+        </div>
+
+        <p class="index-introduction">First, I solve the problem. Then, I'll write the code!</p>
       </div>
 
       <div id="aside">
@@ -199,11 +217,10 @@
 
     <script>
       var welcome = new Typed('#typed', {
-        strings: ['I Am a<br>Full-Stack Developer<br>Specialized in<br>Front-end development.'],
-        backSpeed: 70,
-        typeSpeed: 70,
+        strings: ['I Am a...<br>Full-Stack Developer Specialized in<br>Front-end development.'],
+        backSpeed: 60,
+        typeSpeed: 60,
         loop: false,
-        // showCursor: false,
       });
       var welcome2 = new Typed('#typed2', {
         strings: [
