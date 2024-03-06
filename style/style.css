@@ -98,7 +98,7 @@ body {
 }
 
 .icons > a > i {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: white;
   background-color: red;
   padding: 0.5rem;
@@ -106,7 +106,7 @@ body {
 }
 
 .icons > a > i:hover {
-  color: rgb(22, 155, 208);
+  color: rgb(212, 216, 218);
   background-color: white;
 }
 
@@ -130,7 +130,7 @@ body {
   color: white !important;
 }
 
-@media only screen and (max-width: 1055px) {
+@media only screen and (max-width: 1260px) {
   #container {
     margin: 0 auto;
     display: grid;
@@ -168,11 +168,11 @@ body {
 
   #contact {
     margin: 0;
-    font-size: medium;
+    font-size: large;
   }
 
   .aLinks {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   #nav > #ulnav {
