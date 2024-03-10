@@ -159,6 +159,18 @@
   width: fit-content;
 }
 
+.job-separator {
+  width: 100%;
+  margin: 1em 0;
+}
+
+.list-underline {
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
+  width: fit-content;
+  padding: 2px;
+}
+
 #section5 {
   width: 80%;
   margin: auto;
