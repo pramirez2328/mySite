@@ -56,23 +56,21 @@ img.icon {
 }
 
 @media only screen and (max-width: 1055px) {
-  #main-message {
-    margin: 0;
-  }
-
   #main-message > .typed-cursor {
     font-size: 0.6em;
   }
 
   .typed-cursor {
-    font-size: 0.7em;
+    font-size: 0.55em;
   }
 
   .index-hr {
     width: 90%;
   }
 
-  #typed,
+  #typed {
+    font-size: 0.7em;
+  }
   #typed2 {
     font-size: 0.8em;
   }
@@ -87,6 +85,7 @@ img.icon {
   #section-languages {
     width: 85%;
     margin: auto;
+    font-size: 1.1em;
   }
 
   .progra_icons {

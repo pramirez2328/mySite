@@ -65,6 +65,7 @@
   border-top: 2px solid red;
   border-bottom: 2px solid red;
   padding: 1em 0;
+  text-align: center;
 }
 
 #section1 .summary {
@@ -117,11 +118,6 @@
   padding-top: 1em;
 }
 
-.list-underline {
-  width: 7em;
-  background-color: red;
-}
-
 #skills > div > h3 {
   margin: 0 0 0.5em 0;
 }
@@ -156,8 +152,11 @@
 }
 
 .job-title {
-  margin: 0;
+  margin: auto;
   text-align: center;
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
+  width: fit-content;
 }
 
 #section5 {
@@ -175,7 +174,7 @@
   padding-bottom: 3px;
 }
 
-@media only screen and (max-width: 1260px) {
+@media only screen and (max-width: 1055px) {
   #main {
     height: fit-content !important;
     margin-bottom: 2em;
@@ -183,10 +182,6 @@
 
   #downloadResume {
     font-size: small;
-  }
-
-  #section1 h4 {
-    text-align: center;
   }
 
   .areas-of-expertise > ul > li,
