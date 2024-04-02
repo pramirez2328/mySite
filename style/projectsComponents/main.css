@@ -58,17 +58,22 @@ a:hover {
 
 .project-live {
   margin: 0 0 1em 0;
+  cursor: pointer;
 }
 .project-live a {
   text-decoration: none;
+}
+
+.project-live:hover a {
+  color: red;
 }
 
 .project-live a span {
   color: white;
   letter-spacing: -4px;
   display: inline-block;
-  -webkit-animation: colorChange 3s forwards infinite;
-  animation: colorChange 3s forwards infinite;
+  -webkit-animation: colorChange 2s forwards infinite;
+  animation: colorChange 2s forwards infinite;
   -webkit-animation-delay: calc(0.1s * var(--i));
   animation-delay: calc(0.1s * var(--i));
   -webkit-transition: color 7s;
