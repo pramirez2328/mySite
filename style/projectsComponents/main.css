@@ -59,26 +59,30 @@ a:hover {
 .project-live {
   margin: 0 0 1em 0;
   cursor: pointer;
+  border: solid 2px rgba(184, 2, 2, 0.644);
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 3, 3, 0.519);
 }
 .project-live a {
   text-decoration: none;
 }
 
-.project-live:hover a {
-  color: red;
+.project-live:hover {
+  background-color: black;
 }
 
 .project-live a span {
-  color: white;
   letter-spacing: -4px;
   display: inline-block;
-  -webkit-animation: colorChange 2s forwards infinite;
-  animation: colorChange 2s forwards infinite;
+  -webkit-animation: colorChange 1.5s forwards infinite;
+  animation: colorChange 1.5s forwards infinite;
   -webkit-animation-delay: calc(0.1s * var(--i));
   animation-delay: calc(0.1s * var(--i));
-  -webkit-transition: color 7s;
-  transition: color 7s;
+  -webkit-transition: color 5s;
+  transition: color 5s;
   transform: translateZ(0);
+  font-size: 0.8em;
 }
 
 @media only screen and (max-width: 1055px) {
