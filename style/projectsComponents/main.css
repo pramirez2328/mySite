@@ -59,10 +59,10 @@ a:hover {
 .project-live {
   margin: 0 0 1em 0;
   cursor: pointer;
-  border: solid 2px rgba(184, 2, 2, 0.644);
+  border: solid 2px rgba(176, 1, 1, 0.515);
   padding: 10px 20px;
   border-radius: 20px;
-  background-color: rgba(255, 3, 3, 0.519);
+  background-color: rgba(255, 3, 3, 0.33);
 }
 .project-live a {
   text-decoration: none;
@@ -151,7 +151,7 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   .project-live a span {
-    font-size: 0.8em;
+    font-size: 1.1em;
   }
   .description {
     width: 100%;
