@@ -55,15 +55,21 @@ a:hover {
     color: white;
   }
 }
+.project-live-subtitle {
+  margin: 0 0 1em 0;
+  font-size: 0.6em;
+}
 
 .project-live {
   margin: 0 0 1em 0;
   cursor: pointer;
-  border: solid 2px rgba(176, 1, 1, 0.515);
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: rgba(255, 3, 3, 0.33);
+  border: 2px solid rgba(184, 1, 1, 0.906);
+  padding: 9px 34px;
+  border-radius: 14px;
+  background-color: rgba(184, 1, 1, 0.936);
+  font-size: 0.8em;
 }
+
 .project-live a {
   text-decoration: none;
 }
