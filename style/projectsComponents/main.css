@@ -126,7 +126,7 @@ a:hover {
   }
 
   ul li {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 
   video#video1 {
@@ -164,5 +164,8 @@ a:hover {
   }
   .videoDescription h3 {
     font-size: 0.9em;
+  }
+  .videoDescription .project-live {
+    font-size: 0.7em;
   }
 }
